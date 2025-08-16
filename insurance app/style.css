@@ -1,0 +1,47 @@
+
+.hero-image img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid rgba(0,212,255,0.12);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.profile-image {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-image img {
+    width: 500px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid rgba(0,212,255,0.12);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    background-color: #000; /* black background for transparent areas */
+}
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.profile-image {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color: #000; /* black circular background */
+}
+
